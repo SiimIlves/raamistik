@@ -1,10 +1,10 @@
 <?php
 
 
-class Posts
+class Posts extends Controller
 {
     public function __construct()
     {
-        echo "Posts class is loaded <br>";
+        echo 'Posts class loaded<br>';
     }
 }
