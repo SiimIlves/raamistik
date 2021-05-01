@@ -15,13 +15,13 @@ class Pages extends Controller
         );
         $this->view('pages/index', $data);
     }
-    public function about() {
+  /*  public function about() {
         $usersCount = $this->pagesModel->usersCount();
         echo 'Users in db - '.$usersCount.'<br>';
         $user=$this->pagesModel->getOneUser();
         print_r($user);
         $data = array('content' => 'Pages about view is loaded by MVC');
         $this->view('pages/about', $data);
-    }
+    }*/
 
 }
