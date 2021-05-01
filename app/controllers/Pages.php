@@ -15,9 +15,9 @@ class Pages extends Controller
         );
         $this->view('pages/index', $data);
     }
-    public function about(){
-        $this->pagesModel->addUser();
-        echo ' user data is saved<br>';
+    public function about() {
+        $user=$this->pagesModel->getOneUser();
+        print_r($user);
         $data = array('content' => 'Pages about view is loaded by MVC');
         $this->view('pages/about', $data);
     }
