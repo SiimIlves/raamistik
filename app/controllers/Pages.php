@@ -5,16 +5,18 @@ class Pages extends Controller
 {
     public function __construct()
     {
-        echo 'Pages Class is loaded<br>';
+        // if anything else works dont need to thcehicejc
     }
 
     public function index(){
-        echo 'index meth is loaded<br>';
-        $this->view('index');
+        $data = array(
+            'title' => 'Welcome to Pages',
+        'content' => 'Pages index view is loaded by MVC'
+    );
+        $this->view('pages/index', $data);
     }
-
     public function about(){
-        echo 'about meth is loaded<br>';
-        $this->view('about');
+        $data = array('content' => 'Pages about view is loaded by MVC');
+        $this->view('pages/about', $data);
     }
 }
