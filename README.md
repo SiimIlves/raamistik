@@ -35,6 +35,6 @@ also the index.php file that takes all that bootstrap collected and then slams i
 # Thank you for coming to my TED Talks.
 
 ### Contributors
-Anna Karutina - https://github.com/annakarutina/
-Siim Ilves - https://github.com/SiimIlves
-account458948 - https://github.com/account458948
+- Anna Karutina - https://github.com/annakarutina/
+- Siim Ilves - https://github.com/SiimIlves
+- account458948 - https://github.com/account458948
