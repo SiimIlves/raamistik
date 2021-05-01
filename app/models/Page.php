@@ -8,6 +8,13 @@ class Page
     public function __construct()
     {
         $this->db = new Database();
-        echo 'db is connected';
+    }
+
+    public function addUser(){
+        $this->db->query('INSERT INTO users SET name=:name, email=:email, status=:status');
+        $this->db->bind('name', 'asd');
+        $this->db->bind('email', 'asd@host.loc');
+        $this->db->bind('status', 'user');
+        $this->db->execute();
     }
 }
