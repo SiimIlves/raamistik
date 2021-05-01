@@ -9,3 +9,7 @@
     <title><?php echo PROJECT_NAME?></title>
 </head>
 <body>
+    <nav>
+        <h1 class="title"><?php echo ucfirst(PROJECT_NAME); ?></h1>
+    </nav>
+    <div class="container">
